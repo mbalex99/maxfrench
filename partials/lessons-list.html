@@ -8,12 +8,12 @@
 					<tbody>
 						<tr ng-repeat="lesson in chapter.lessons">
 							<td>
-								<a href="#/chapter/{{lesson.chapterId}}/lesson/{{lesson.lessonId}}">
+								<a href="{{lesson.routeLink}}">
 									{{lesson.lessonId}}
 								</a>
 							</td>
 							<td>
-								<a href="#/chapter/{{lesson.chapterId}}/lesson/{{lesson.lessonId}}">
+								<a href="{{lesson.routeLink}}">
 									{{lesson.name}}
 								</a>
 							</td>
