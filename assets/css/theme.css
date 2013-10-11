@@ -1,0 +1,13 @@
+/* Customizations */
+.navbar
+{
+	background-color: #5784FF;
+}
+
+.navbar a {
+	color: #FFF;
+}
+
+.navbar a :hover{
+	color: #7398FF;
+}
