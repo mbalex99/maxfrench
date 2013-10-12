@@ -8,6 +8,7 @@
 	color: #FFF;
 }
 
-.navbar a :hover{
-	color: #7398FF;
+.navbar a:hover{
+	color: #000;
+	background-color: #5784FF;
 }

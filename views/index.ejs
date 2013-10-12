@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="clientApp">
 <head>
-  <title>MaxKanji - Simple Kanji Reference</title>
+  <title>ZinkPulse French - Simple Kanji Reference</title>
   <!-- Viewport mobile tag for sensible mobile support -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -14,7 +14,7 @@
   <div ng-include="'/partials/header-nav.html'"></div>
 
   <div ng-view></div>
-
+  <!--Less -->
   <script src="scripts/lib/jquery.min.js"></script>
   <script src="scripts/lib/angular.js"></script>
   <script src="scripts/lib/angular-route.js"></script>
@@ -26,5 +26,8 @@
   <script src="scripts/clientApp/constants/chapters.js"></script>
   <script src="scripts/clientApp/controllers/HomeCtrl.js"></script>
   <script src="scripts/clientApp/controllers/LessonsListCtrl.js"></script>
+  <script src="scripts/clientApp/controllers/Chapter1Lesson1Ctrl.js"></script>
+  <script src="scripts/clientApp/directives/VocabTable.js"></script>
+  <script src="scripts/clientApp/directives/DialogueTable.js"></script>
 </body>
 </html>

@@ -5,7 +5,7 @@ ClientApp.Constants.constant('chapters',
 		description: 'Welcome to French. This chapter will help you get acclimated to the language! Great for last minute tourists',
 		lessons: [{
 			lessonId: 1,
-			name: 'Greetings',
+			name: 'Making friends',
 			description: "Must have words and commonly used phrases. Don't go to a French Speaking Country until you're good at these phrases!"
 		},{
 			lessonId: 2,
