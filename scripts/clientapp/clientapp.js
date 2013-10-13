@@ -12,6 +12,8 @@ angular.module('clientApp',
 .config(['$routeProvider', function($routeProvider){
 	$routeProvider
 	.when('/', {templateUrl: 'partials/home.html', controller: 'HomeCtrl'})
+	.when('/404', {templateUrl: 'partials/404.html', controller: '404Ctrl'})
 	.when('/lessons/list', {templateUrl: 'partials/lessons-list.html', controller: 'LessonsListCtrl'})
-	.when('/chapters/1/lessons/1', {templateUrl: 'partials/chapter-1-lesson-1.html', controller: 'Chapter1Lesson1Ctrl'});
+	.when('/chapters/1/lessons/1', {templateUrl: 'partials/chapter-1-lesson-1.html', controller: 'Chapter1Lesson1Ctrl'})
+	.otherwise({redirectTo:'/404'});
 }]);
